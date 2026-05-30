@@ -28,9 +28,6 @@ export const signupController = async (
 };
 
 
-// ========================
-// USER LOGIN
-// ========================
 export const loginController = async (
   req: Request,
   res: Response

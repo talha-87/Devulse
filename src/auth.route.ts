@@ -7,12 +7,8 @@ import {
 
 const router = Router();
 
-
-// SIGNUP
 router.post("/signup", signupController);
 
-
-// LOGIN
 router.post("/login", loginController);
 
 

@@ -10,7 +10,6 @@ export const authMiddleware = (req: any, res: any, next: any) => {
     });
   }
 
-  // ✅ support BOTH formats
   const token = authHeader.startsWith("Bearer ")
     ? authHeader.split(" ")[1]
     : authHeader;
